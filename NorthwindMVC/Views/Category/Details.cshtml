@@ -2,15 +2,32 @@
 
 @{
     ViewData["Title"] = "Category Details";
+    var imagePath = $"/images/category{Model.CategoryId}.jpeg";
 }
+<head>
+    <link rel="stylesheet" href="~/css/Details.css" />
+</head>
 
+<div class="container">
 <h1>@Model.CategoryName</h1>
 
-@if (!string.IsNullOrEmpty(Model.Description))
-{
-    <p>@Model.Description</p>
-}
-else
-{
-    <p>Beskrivning saknas</p>
-}
+
+    @if (!string.IsNullOrEmpty(Model.Description))
+    {
+        <p>@Model.Description</p>
+    }
+    else
+    {
+        <p>Beskrivning saknas</p>
+    }
+
+    <img class="d-block w-100" src="@imagePath" alt="@Model.CategoryName" style="max-width: 300px;" />
+
+
+    <p>
+        <a class="btn btn-primary" asp-controller="Home" asp-action="Index">Tillbaka</a>
+    </p>
+
+</div>
+
+
