@@ -47,7 +47,10 @@
                         <h3>@Model.Categories[c].Description</h3>
                         <p>
                             <a class="btn btn-primary"
-                               href="/category/@Model.Categories[c].CategoryId">View category</a>
+                               asp-controller="Category" 
+                               asp-action="Details"
+                               asp-route-id="@Model.Categories[c].CategoryId">View category
+                           </a>
                         </p>
                     </div>
                 </div>
