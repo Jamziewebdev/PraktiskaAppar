@@ -17,6 +17,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NorthwindMVC", "NorthwindMV
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CustomI.Sample.CustomUserManagement", "CustomI.Sample.CustomUserManagement\CustomI.Sample.CustomUserManagement.csproj", "{BBA5505A-8C4C-4735-AC80-07782122B09B}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Northwind Blazor", "Northwind Blazor\Northwind Blazor.csproj", "{20AD9599-DBAB-470D-A090-D3C21E87B85D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -51,6 +53,10 @@ Global
 		{BBA5505A-8C4C-4735-AC80-07782122B09B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BBA5505A-8C4C-4735-AC80-07782122B09B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BBA5505A-8C4C-4735-AC80-07782122B09B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{20AD9599-DBAB-470D-A090-D3C21E87B85D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{20AD9599-DBAB-470D-A090-D3C21E87B85D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{20AD9599-DBAB-470D-A090-D3C21E87B85D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{20AD9599-DBAB-470D-A090-D3C21E87B85D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -4,6 +4,7 @@ using CustomI.Sample.CustomUserManagement.Areas.Identity.Data;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 
 #nullable disable
@@ -11,9 +12,11 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace CustomI.Sample.CustomUserManagement.Migrations
 {
     [DbContext(typeof(CustomISampleCustomUserManagementContext))]
-    partial class CustomISampleCustomUserManagementContextModelSnapshot : ModelSnapshot
+    [Migration("20250401084330_Update-identity-user-fields")]
+    partial class Updateidentityuserfields
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        /// <inheritdoc />
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
