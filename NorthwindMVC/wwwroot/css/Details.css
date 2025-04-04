@@ -1,17 +1,25 @@
-﻿.container {
-    width: 100%;
+﻿.category-container {
+    width: 400px;
     height: 100%;
     display: flex;
     align-items: center;
     flex-direction: column;
     justify-content: center;
+    margin: 0 auto;
     text-align: left;
+    background-color: aliceblue;
+    filter: drop-shadow(2px 2px 3px #d3d3d3);
+    border-radius: 10px;
 }
 
 img {
     margin-bottom: 20px;
+    border: 10px double #8aaca9;
+    border-radius: 4px;
+    box-shadow: 2px 2px 2px #d3d3d3;
 }
 
 btn {
     margin: 0 auto;
 }
+
